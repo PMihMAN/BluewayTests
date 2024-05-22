@@ -1,0 +1,6 @@
+@BluewayTests_HostAddress = http://localhost:5108
+
+POST {{BluewayTests_HostAddress}}/anything/
+Accept: application/json
+
+###
