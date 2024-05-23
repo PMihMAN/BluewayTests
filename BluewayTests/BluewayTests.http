@@ -3,4 +3,6 @@
 POST {{BluewayTests_HostAddress}}/anything/
 Accept: application/json
 
+POST{{BluewayTests_HostAddress}}/anything2/
+Accept:application/json
 ###

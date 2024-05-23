@@ -9,6 +9,7 @@ public class AnythingController : ControllerBase
     [HttpPost]
     public async Task<IEnumerable<int>> PostAnything()
     {
+        Console.WriteLine("Anything");
         using var bodyStream = new StreamReader(HttpContext.Request.Body);
         Console.WriteLine(await bodyStream.ReadToEndAsync());
         return [1,2,3];
